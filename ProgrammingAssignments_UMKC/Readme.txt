@@ -1,0 +1,5 @@
+A few quick notes on the various programs, and what I learned when it was too late (i.e. I screwed up so you don't have to): 
+
+On the PROLOG program involving houses & residents, the off-the-cuff requirement about "having Prolog report its reasoning" should be dropped. Getting Prolog to report its internal state is nontrivial, and the result is a HUGE list of variable assignments and unassignments as the language tries to satisfy the various constraints. Incidentally, this problem is taken straight out of Russell & Norvig, but there are variants online going back years (with cigarette brands in place of favorite candy, or favorite sports teams in place of pets, etc.) 
+
+8-queens isn't the best fit for genetic algorithms, since there's an exact solution that you have to find. But it worked well enough. We used hill climbing for the 8-queens problems the following semester. 
